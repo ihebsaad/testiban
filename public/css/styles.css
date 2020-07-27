@@ -1,0 +1,16 @@
+footer{
+background-color:black!important;
+color:white!important;
+height:50px!important;padding-top:20px!important;
+}
+nav,.dropdown-menu,.dropdown-menu a:hover {
+background-color:#222d5e!important;
+}
+nav li a {
+color:white!important;font-weight:800!important;
+}
+#app{padding-top:30px; }
+legend{
+font-size:20px;
+}
+fieldset{padding:20px 20px 20px 20px;}
