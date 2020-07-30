@@ -14,12 +14,14 @@
 </ul>
 <br><br><br>
 <H2>Installation on localhost</H2><br>
-<h4>Requirements:</h4><br>
+<h4>Requirements :</h4><br>
 <ul>
 <li>php >=7.1.3</li>
 <li><a href="https://getcomposer.org/download/">Composer</a></li>
-</ul>
-<h4>Setup</h4><br>
+<li>Web Server(Apache)</li>
+<li>MySQL Server</li>
+</ul><br>
+<h4>Setup :</h4><br>
 Go to your local server and folder destination with CMD :<br>
 <pre> cd  /path_to_folder<br></pre>
 clone project :<br>
@@ -39,11 +41,11 @@ DB_PASSWORD=''<br>
 
 <br>
 <b>Set API Parameters</b><br>
-API_END_POINT=''<br>
+API_BASE=''<br>
 API_USERNAME=''<br>
 API_PASSWORD=''<br>
 
-Import the database (file database.sql) to MySQL Server :<br>
+Import the database (file database.sql) to your MySQL Server :<br>
 <br>
 <b>Run the server:</b><br>
 <pre>php artisan serve</pre><br>
