@@ -13,19 +13,20 @@
 <li>Show a financial movements</li>
 </ul>
 <br><br><br>
-<H2>Installation on localhost<H2><br>
+<H2>Installation on localhost</H2><br>
 Requirements:<br>
-php >=7.1.3<br>
-<a href="https://getcomposer.org/download/">Composer</a><br>
-
-<b>Setup<b><br>
+<ul>
+<li>php >=7.1.3</li>
+<li><a href="https://getcomposer.org/download/">Composer</a></li>
+</ul>
+<b>Setup</b><br>
 Go to your local server and folder destination with CMD :<br>
-<pre> cd  /path_to_folder<br><pre>
+<pre> cd  /path_to_folder<br></pre>
 clone project :<br>
-<pre>git clone https://github.com/ihebsaad/testiban.git<br></pre>
+<pre>git clone https://github.com/ihebsaad/testiban.git</pre>
 
-composer install<br>
-rename .env.example to .env<br>
+Composer install<br>
+Rename .env.example to .env<br>
 <br>
 <b>Set Database Parameters</b><br>
 <br>
