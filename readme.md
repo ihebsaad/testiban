@@ -14,18 +14,18 @@
 </ul>
 <br><br><br>
 <H2>Installation on localhost</H2><br>
-Requirements:<br>
+<h4>Requirements:</h4><br>
 <ul>
 <li>php >=7.1.3</li>
 <li><a href="https://getcomposer.org/download/">Composer</a></li>
 </ul>
-<b>Setup</b><br>
+<h4>Setup</h4><br>
 Go to your local server and folder destination with CMD :<br>
 <pre> cd  /path_to_folder<br></pre>
 clone project :<br>
 <pre>git clone https://github.com/ihebsaad/testiban.git</pre>
 
-Composer install<br>
+composer install<br>
 Rename .env.example to .env<br>
 <br>
 <b>Set Database Parameters</b><br>
@@ -45,8 +45,7 @@ API_PASSWORD=''<br>
 
 Import the database (file database.sql) to MySQL Server :<br>
 <br>
-Run the server:<br>
+<b>Run the server:</b><br>
 <pre>php artisan serve</pre><br>
-<br>
 
 http://localhost:8000/folder_name<br>
